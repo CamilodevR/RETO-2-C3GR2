@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>&#9733;&#9733;&#9733; ST&#9733;R S.A.S. &#9733;&#9733;&#9733;</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div id="contenedor">
+
+            <div id="header">
+                <h6><a href="https://www.minsalud.gov.co/Paginas/Las-medidas-a-cumplir-en-el-sector-de-limpieza-y-aseo-domestico-.aspx#:~:text=A%20esto%20se%20le%20suma,desechar%20los%20elementos%20de%20protecci%C3%B3n"><center>MEDIDAS A CUMPLIR FRENTE A LA EMERGENCIA POR EL COVID-19</center></a></h6>
+            </div>
+
+            <div id="nav">
+                <ul>
+                <li><a href="#"><img src="LOGO 5.png" height="100" width="200"></a></li>
+                <li class="bar">¦</li>
+                <li><a href="quienes.html">¿QUIENES SOMOS?</a></li>
+                <li class="bar">¦</li>
+                <li><a href="servicios.html">NUESTROS SERVICIOS</a></li>
+                <li class="bar">¦</li>
+                <li><a href="formulario.html">COTIZA CON NOSOTROS</a></li>
+                <li class="bar">¦</li>
+                <li><a href="#footer">CONTACTENOS</a></li>
+                </ul>
+            </div>
+
+            <div id="contenido">
+                <div id="section">Section
+
+                
+                <article class="articulo1"><center>
+                    
+                    <h1>LIMPIEZA Y MANTENIMIENTO PROFECIONAL QUE TE DEJA LIBRE DE ESTRÉS</h1><br><br>
+                <p>STAR SOLUCIONES INTEGRALES S.A.S. <br><br>
+                    Proporcionamos servicios especializados en aseo, limpieza y mantenimiento para áreas residenciales, empresariales e industriales con calidad y eficiencia.
+                    Adicionalmente proveemos suministros de aseo general y materiales ferroeléctricos para los mismos, además nuestro propósito es ser su mejor aliado para poderle brindar el máximo apoyo y colaboración en toda la logística y operatividad relacionada.
+                    </p><br>
+                    <img src="zona.jpg" height="400" width="600" ><br>
+                    </center></article>
+
+                
+                <article class="articulo2"><center><a class="boton1" href="formulario.html">COTIZA CON NOSOTROS</a></center>
+                </article>
+                    
+                    
+                </div>
+
+                <br><br><br><br><br>
+                
+                <div id="footer"><footer><center>¡Muchas gracias por contar con nosotros! cualquier inquietud y/o requerimiento estos son
+                    nuestros canales de atención:Tel o vía WhatsApp.: 311 573 9614 ó <a href="https://api.whatsapp.com/send?phone=+573115739614&text=Hola, Nececito mas información!"><img src="whatsapp.png" alt="Envianos un mensaje por whatsapp" width="60" height="60"></a><br>
+                    Vía correo electronico: <a href="mailto:starsolucionesintegralessas@gmail.com">starsolucionesintegralessas@gmail.com</a><br>
+                                            <a href="mailto:andresgtr7@gmail.com">andresgtr7@gmail.com</a></center></footer></div>
+        </div>
+
+        <link rel="stylesheet" href="csstylo/css123.css">
+    </body>
+</html>
+
+
+
+
+
+CSS
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#contenedor{
+    width: 1340px;
+    height: 1500px;
+    color:rgb(255, 255, 255);
+    background-image: url("https://imagepphcloud.thepaper.cn/pph/image/107/573/21.jpg");
+    background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+
+}
+#header{
+    height: 15px;
+    width: 100%;
+    background-color: rgb(179, 143, 252); filter:alpha(opacity=70); opacity: 0.7;
+}
+#nav{
+    height: 10%;
+    width: 100%;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ddf1f9+14,a0d8ef+47,feffff+99 */
+background: #ddf1f9; /* Old browsers */
+background: -moz-linear-gradient(top,  #ddf1f9 14%, #a0d8ef 47%, #feffff 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ddf1f9 14%,#a0d8ef 47%,#feffff 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ddf1f9 14%,#a0d8ef 47%,#feffff 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ddf1f9', endColorstr='#feffff',GradientType=0 ); /* IE6-9 */
+}
+#nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#nav ul li{
+    float: left;
+    
+}
+
+#nav a{
+    color: indigo;
+    text-decoration: none;
+    display: block;
+    padding: 40px 26px;
+}
+
+.bar{
+    color: rgb(254, 255, 255);
+    padding: 40px 0 0 0;
+}
+#nav a:hover{
+    color: rgb(141, 117, 248);
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ecf7fc+14,caeaf6+47,ffffff+99 */
+background: #ecf7fc; /* Old browsers */
+background: -moz-linear-gradient(top,  #ecf7fc 14%, #caeaf6 47%, #ffffff 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ecf7fc 14%,#caeaf6 47%,#ffffff 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ecf7fc 14%,#caeaf6 47%,#ffffff 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecf7fc', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+    animation: 1s ms 1;
+}
+@keyframes ms{
+    0%{
+        opacity: 0;
+        transform: scale(1.6);
+    }
+}
+
+
+
+
+#contenido{
+    width: 100%;
+    height:70%;   
+}
+#section{
+    height: 97%;
+    width: 97%;
+    
+    border-radius: 1em;
+    margin: 20px 20px 20px 20px;
+}
+.articulo1{ 
+    color: black;
+    height: 70%;
+    width: 70%; 
+    margin-left: 15%;
+}
+.articulo2{
+    height: 25%;
+    width: 99%; 
+    margin: 5px 5px 5px 5px;
+}
+
+#footer{
+    height: 15%;
+    width: 100%;
+    background-color: rgb(255, 255, 255); filter:alpha(opacity=60); opacity: 0.6;
+    color: black;
+    
+}
+#header h6 a{ 
+    color: white;
+    text-decoration: none;
+    margin-top: 3px;
+}
+
+.boton1{
+    color: rgb(157, 71, 255);
+    text-decoration: none;
+    font-family: sans-serif ;
+    text-align: center;
+    font-size: 30px;
+    padding: 60px 30px 30px 30px;
+    display: inline-block;
+    height: 60px;
+    width: 400px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b4e391+0,61c419+50,b4e391+100;Green+3D */
+background: #b4e391; /* Old browsers */
+background: -moz-linear-gradient(top,  #b4e391 0%, #61c419 50%, #b4e391 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #b4e391 0%,#61c419 50%,#b4e391 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #b4e391 0%,#61c419 50%,#b4e391 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391', endColorstr='#b4e391',GradientType=0 ); /* IE6-9 */
+
+    border-color: #ab33f1;
+    border-radius: 0px 60px;
+
+  }
+  .boton1:hover{
+    color: #f8f6f8;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#98ea5e+52,d1eeba+97 */
+background: #98ea5e; /* Old browsers */
+background: -moz-linear-gradient(top,  #98ea5e 52%, #d1eeba 97%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #98ea5e 52%,#d1eeba 97%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #98ea5e 52%,#d1eeba 97%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#98ea5e', endColorstr='#d1eeba',GradientType=0 ); /* IE6-9 */
+
+    animation: 1s ms 1;
+}
+@keyframes ms{
+    0%{
+        opacity: 0;
+        transform: scale(1.6);
+    }
+}
